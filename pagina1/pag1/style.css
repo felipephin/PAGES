@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url(pexels-bess-hamiti-35537.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.header {
+   
+    position: fixed;
+    padding: 20px 100px;
+    width: 100%;  
+    background: transparent;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.116);
+    
+
+}
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    cursor: default;
+}
+
+
+.navbar a {
+   margin-left: 30px;
+   color: white;
+   text-decoration: none;
+   transition: .3s;
+
+}
+.navbar a:hover {
+    color: aqua;
+}
+
+
+#menu-icon {
+    font-size: 36px;
+    color: white;
+    display: none;
+}
+
+
+
+
+@media (max-width: 992px) {
+    .header {
+        padding: 1.25rem 4%;
+    }
+}
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+    .navbar {
+        position: fixed;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: .5rem 4%;
+        background: rgba(0, 0, 0, 0.1);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.178);
+    
+    }
+    .navbar a {
+        display: block;
+        margin: 1.5rem 0;
+    }
+    
+
+}

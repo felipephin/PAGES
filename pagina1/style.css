@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url(images/room.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(165, 42, 42, 0.589);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.144);
+}
+.logo {
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+.navbar a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+.navbar a:hover {
+    color: red;
+}
+
+
