@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background: url(../images/adventure.jpg) no-repeat;
+    background: url(../images/space.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -106,4 +106,17 @@ body {
         display: block;
     }
 
+}
+
+.wrapper {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paginas a {
+    color: white;
+    margin-top: 20px;
+   
+    
 }
