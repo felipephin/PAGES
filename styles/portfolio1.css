@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    background: url(../images/adventure.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.head h2 {
+    font-size: 2em;
+    font-weight: 800;
+    color: darkgoldenrod;
+    cursor: default;
+}
+.head {
+    position: fixed;
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(15px);
+
+}
+.navbar a {
+    text-decoration: none;
+    color: rgb(10, 12, 11);
+    margin-left: 30px;
+    font-weight: 600;
+}
+.navbar a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+    
+
+}
